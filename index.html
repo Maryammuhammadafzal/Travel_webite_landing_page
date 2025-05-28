@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">LOGO</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#casestudy">Case Study</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <button class="cta-btn">Book a trip</button>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#casestudy">Case Study</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- banner -->
+  <div class="banner">
+    <div class="banner-content">
+      <h6></h6>
+      <h1>Your Adventure Begins Here!</h1>
+      <p>Your gateway to unforgettable journeys and incredible experiences. Whether you’re a seasoned traveler or a
+        first-time explorer, we are here to craft the perfect itinerary to suit your needs. From breathtaking natural
+        wonders to immersive cultural experiences, we offer tailor-made tours that will create memories to last a
+        lifetime.</p>
+    </div>
+    <div class="paro">
+      <form class="booking-form">
+        <!-- Container 1 -->
+        <div class="form-container">
+          <div class="input-group">
+            <label for="full-name"></label>
+            <input type="text" id="full-name" placeholder="Full Name">
+          </div>
+          <div class="input-group">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Your Email">
+          </div>
+        </div>
+
+        <!-- Container 2 -->
+        <div class="form-container">
+          <div class="input-group">
+            <label for="check-in"></label>
+            <input type="date" id="check-in">
+          </div>
+          <div class="input-group">
+            <label for="check-out"></label>
+            <input type="date" id="check-out">
+          </div>
+        </div>
+
+        <!-- Container 3 -->
+        <div class="form-container">
+          <button type="submit" class="btn-book">Book Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section class="investment-section-container">
+
+    <div class="row align-items-center">
+      <!-- Left Side: Image -->
+      <div class="col-lg-6 col-md-12 investment-image">
+        <img src="img/Group 116.png" alt="Investment Opportunities" class="img-fluid" />
+      </div>
+
+      <!-- Right Side: Text and Cards -->
+      <div class="col-lg-6 col-md-12 investment-content">
+        <h2>Why Choose Us?</h2>
+        <p>
+          At [Your Company Name], we specialize in providing personalized travel experiences that cater to your
+          interests, needs, and budget. Here’s why travelers choose us:
+        </p>
+
+        <!-- Cards Section -->
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-6 mb-3">
+            <div class="investment-card">
+              <div class="icon"></div>
+              <h4 class="white-text">Expert Guides</h4>
+              <p class="white-text">Our knowledgeable and friendly tour guides will ensure that every aspect of your
+                journey is insightful and enjoyable.</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-6 mb-3">
+            <div class="investment-card">
+              <div class="icon"></div>
+              <h4 class="white-text">Customized Itineraries</h4>
+              <p class="white-text">We offer tailor-made tours to suit your travel preferences—whether you prefer
+                luxury, adventure, or relaxation.</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-6 mb-3">
+            <div class="investment-card">
+              <div class="icon"></div>
+              <h4 class="white-text">Exceptional Customer Service</h4>
+              <p class="white-text">Our team is committed to providing you with top-notch service from start to finish.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-6 mb-3">
+            <div class="investment-card">
+              <div class="icon"></div>
+              <h4 class="white-text">Exclusive Deals & Offers</h4>
+              <p class="white-text">Take advantage of special promotions, group discounts, and early-bird offers when
+                booking with us.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <div style="overflow: hidden;" class="carousel-container">
+    <h1 class="section-title">Hot Tour Packages</h1>
+    <div class="filter-menu">
+      <a href="#" class="active">All</a>
+      <a href="#">Honeymoon</a>
+      <a href="#">Holiday</a>
+      <a href="#">Family</a>
+      <a href="#">Luxury</a>
+      <a href="#">Safari</a>
+      <a href="#">Relax</a>
+    </div>
+    <div id="tour-carousel" class="owl-carousel">
+      <div class="card">
+        <img src="img/image3.png" alt="Bali, Indonesia">
+        <span class="category">Holiday</span>
+        <h3>Bali, Indonesia</h3>
+        <p>A tropical paradise with pristine beaches, vibrant culture, and serene temples.</p>
+      </div>
+      <div class="card">
+        <img src="img/image2.png" alt="Paris, France">
+        <span class="category">Honeymoon</span>
+        <h3>Paris, France</h3>
+        <p>The city of love and lights—explore iconic landmarks, museums, and cafes.</p>
+      </div>
+      <div class="card">
+        <img src="img/image1.png" alt="Taj Mahal, India">
+        <span class="category">Luxury</span>
+        <h3>Taj Mahal, India</h3>
+        <p>A majestic city offering breathtaking views, fine estates, and adventures.</p>
+      </div>
+      <div class="card">
+        <img src="img/image3.png" alt="Safari, Africa">
+        <span class="category">Safari</span>
+        <h3>Safari, Africa</h3>
+        <p>Explore the wilds of Africa with thrilling safaris and stunning sunsets.</p>
+      </div>
+      <div class="card">
+        <img src="img/image2.png" alt="Maldives">
+        <span class="category">Relax</span>
+        <h3>Maldives</h3>
+        <p>Relax in luxury villas surrounded by turquoise waters and coral reefs.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="banner2">
+    <div class="banner-content2">
+      <h3>Summer Special</h3>
+      <h1>30% OFF</h1>
+      <p>Spend the best vacation with us.</p>
+      <button>More Details</button>
+    </div>
+  </div>
+
+  <section class="investment-section-container-2">
+
+    <div class="row align-items-center">
+      <!-- Left Side: Image -->
+      <div class="col-lg-6 col-md-12 investment-image-2">
+        <h2>About Us</h2>
+        <p>
+          At [Your Company Name], we’ve been passionate about travel for years, creating unforgettable journeys for
+          people from all walks of life. Founded by avid travelers, our mission is simple: to make exploring the world
+          accessible, exciting, and personal. From humble beginnings, we’ve grown into a trusted travel partner for
+          thousands of travelers worldwide.
+        </p>
+        <h3>Our Vision & Mission</h3>
+        <p>
+          Our vision is to inspire and connect people to the world through extraordinary travel experiences. We are
+          dedicated to delivering:<br>Authentic Travel Experiences: We emphasize immersive and genuine experiences that
+          allow you to truly connect with a destination.<br>Sustainability: We care about preserving the beauty of our
+          world. Our tours promote sustainable travel practices to protect the environment and local
+          cultures.<br>Affordability & Flexibility: We believe that everyone should have the opportunity to explore new
+          places, so we offer competitive pricing and flexible payment options.
+        </p>
+      </div>
+
+      <!-- Right Side: Text and Cards -->
+      <div class="col-lg-6 col-md-12 investment-content">
+        <img src="img/image 29.png" alt="Investment Opportunities" class="img-fluid" />
+      </div>
+    </div>
+   
+
+  </section>
+  <!-- Counter Section -->
+  <section class="counter-section">
+    <div class="container">
+      <div class="row ">
+        <!-- Counter 1 -->
+        <div class="col-6 col-md-3 counter-item">
+          <div><img src="img/Vector.svg"></div>
+          <div class="counter-number" data-target="984">0</div>
+          <div class="counter-label">Happy tourists</div>
+        </div>
+        <!-- Counter 2 -->
+        <div class="col-6 col-md-3 counter-item">
+          <div><img src="img/Vector-1.svg"></div>
+          <div class="counter-number" data-target="725">0</div>
+          <div class="counter-label">Tours organized</div>
+        </div>
+        <!-- Counter 3 -->
+        <div class="col-6 col-md-3 counter-item">
+          <div><img src="img/ep_map-location.svg"></div>
+          <div class="counter-number" data-target="981">0</div>
+          <div class="counter-label">Destinations</div>
+        </div>
+        <!-- Counter 4 -->
+        <div class="col-6 col-md-3 counter-item">
+          <div><img src="img/lucide_hotel.svg"></div>
+          <div class="counter-number" data-target="436">0</div>
+          <div class="counter-label">Destinations</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+   <div class="Testimonials-heading">
+    <h4>Testimonials</h4>
+    <p>Don't just take our word for it—here’s what our happy travelers have to say:</p>
+
+   </div>
+
+  <div class="testimonial-slider">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide px-2">
+          <div class="testimonial-content">
+            <img src="img/slider.png" alt="Background Image" class="testimonial-bg">
+            <div class="testimonial-text">
+              <div class="testimonial-card">
+                <div class="testimonial-img" style="display: flex;">
+                  <img src="img/Ellipse 74.png" style="margin-right: 20px;">
+                  <h4>Kathryn Murphy<br>Senior Manager</h4>
+                </div>
+                <p>"An unforgettable journey! From the moment we booked our trip, everything was seamless. Our guide was
+                  fantastic, and the itinerary was perfectly suited to our interests."</p>
+                <span style="font-size: 10px;">- Kathryn Murphy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more slides as needed -->
+         <div class="swiper-slide px-2">
+          <div class="testimonial-content">
+            <img src="img/slider.png" alt="Background Image" class="testimonial-bg">
+            <div class="testimonial-text">
+              <div class="testimonial-card">
+                <div class="testimonial-img" style="display: flex;">
+                  <img src="img/Ellipse 74.png" style="margin-right: 20px;">
+                  <h4>Kathryn Murphy<br>Senior Manager</h4>
+                </div>
+                <p>"An unforgettable journey! From the moment we booked our trip, everything was seamless. Our guide was
+                  fantastic, and the itinerary was perfectly suited to our interests."</p>
+                <span style="font-size: 10px;">- Kathryn Murphy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide ">
+          <div class="testimonial-content">
+            <img src="img/slider.png" alt="Background Image" class="testimonial-bg">
+            <div class="testimonial-text">
+              <div class="testimonial-card">
+                <div class="testimonial-img" style="display: flex;">
+                  <img src="img/Ellipse 74.png" style="margin-right: 20px;">
+                  <h4>Kathryn Murphy<br>Senior Manager</h4>
+                </div>
+                <p>"An unforgettable journey! From the moment we booked our trip, everything was seamless. Our guide was
+                  fantastic, and the itinerary was perfectly suited to our interests."</p>
+                <span style="font-size: 10px;">- Kathryn Murphy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="arrrow">
+      <!-- Navigation Arrows -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+ <!-- New Testimonials   -->
+
+   <section class="destination-slider">
+        <!-- Heading -->
+         <div class="text-center-1">
+        <h2 class="text-center">Explore Our Destinations</h2>
+        <p>From the rolling hills of Tuscany to the bustling streets of Bangkok, our tours cover a variety of destinations around the world. Each region offers unique experiences, whether you're interested in history, adventure, culture, or nature. Here’s a glimpse of what we offer:</p>
+        </div>
+        <!-- Bootstrap Carousel -->
+        
+        <div id="destinationCarousel" class="carousel-slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div> -->
+            <!-- Slides -->
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="row d-flex flex-column w-100">
+                <div class="col-md-4 my-1 w-100">
+                    <img src="img/image-1.png" class="d-block w-100 slider-image" alt="Image 1">
+                </div>
+                <div class="col-md-4 my-1 w-100">
+                    <img src="img/image-2.png" class="d-block w-100 slider-image" alt="Image 2">
+                </div>
+                <div class="col-md-4 my-1 w-100">
+                    <img src="img/image22.png" class="d-block w-100 slider-image" alt="Image 3">
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="row d-flex flex-column w-100">
+                <div class="col-md-4 my-1 w-100">
+                    <img src="img/image22.png" class="d-block w-100 slider-image" alt="Image 4">
+                </div>
+                <div class="col-md-4 my-1 w-100">
+                    <img src="img/image22.png" class="d-block w-100 slider-image" alt="Image 5">
+                </div>
+                <div class="col-md-4 my-1 w-100">
+                    <img src="img/image22.png" class="d-block w-100 slider-image" alt="Image 6">
+                </div>
+            </div>
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#destinationCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#destinationCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <footer style="background-color: #fff; color: #A2A835; padding: 50px 0;">
+    <div class="container">
+        <div class="row">
+            <!-- Logo and Description -->
+            <div class="col-lg-5 col-md-6 mb-4">
+                <img src="img/LOGO.png" alt="Logo" class="mb-3">
+                <p style="color: #626262;">
+                    Penatibus natoque cursus scelerisque tristique ut commodo porta. Aptent sociosqu pharetra curabitur
+                    praesent dolor.
+                </p>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Home</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">About Us</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Services</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Packages</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Support -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="mb-3">Support</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Help Center</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Ticket Support</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">FAQ</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Company
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="mb-3">Company</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" style="color: #626262; text-decoration: none;">About Us</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Leadership</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Careers</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Article & News</a></li>
+                    <li><a href="#" style="color: #626262; text-decoration: none;">Legal Notices</a></li>
+                </ul>
+            </div> -->
+
+            <!-- Newsletter and Social Icons -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3">Newsletter</h5>
+                <p style="color: #626262;">Signup our newsletter to get update information, news, insight or promotions.</p>
+                <form style="display: flex;">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email"
+                            style="border-radius: 20px 0px 0px 20px; border-color: #A2A835; padding: 10px; display: flex;">
+                    </div>
+                    <button type="submit" class="btn-btn-primary"
+                        style="border-radius: 0px 20px 20px 0px; width: 30%; height: 46px; border: 0px; background-color: #A2A835; color: #ffffff;">Send</button>
+                </form>
+                <div class="mt-4">
+                    <a href="#" style="color: #ffffff; margin-right: 15px; font-size: 20px;"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" style="color: #ffffff; margin-right: 15px; font-size: 20px;"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" style="color: #ffffff; margin-right: 15px; font-size: 20px;"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="#" style="color: #ffffff; margin-right: 15px; font-size: 20px;"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <hr style="border-color: rgba(255, 255, 255, 0.2);">
+        <div class="text-center mt-3">
+            <p>© 2021 all copyright reserved. All Rights Reserved.</p>
+        </div>
+    </div>
+
+
+</footer>
+
+
+</body>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  autoplay: {
+    delay: 5000,
+  },
+});
+
+</script>
+<script>const btns = document.querySelectorAll(".btn");
+  const slideRow = document.getElementById("slide-row");
+  const main = document.querySelector("main");
+
+  let currentIndex = 0;
+
+  function updateSlide() {
+    const mainWidth = main.offsetWidth;
+    const translateValue = currentIndex * -mainWidth;
+    slideRow.style.transform = `translateX(${translateValue}px)`;
+
+    btns.forEach((btn, index) => {
+      btn.classList.toggle("active", index === currentIndex);
+    });
+  }
+
+  btns.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+      currentIndex = index;
+      updateSlide();
+    });
+  });
+
+  window.addEventListener("resize", () => {
+    updateSlide();
+  });
+</script>
+<script>
+  // Counter Animation Script
+  const counters = document.querySelectorAll('.counter-number');
+
+  counters.forEach(counter => {
+    const animateCounter = () => {
+      const target = +counter.getAttribute('data-target');
+      const current = +counter.innerText;
+      const increment = target / 200; // Adjust for speed
+
+      if (current < target) {
+        counter.innerText = Math.ceil(current + increment);
+        setTimeout(animateCounter, 10); // Call every 10ms
+      } else {
+        counter.innerText = target; // Set final value
+      }
+    };
+
+    animateCounter();
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function () {
+    $("#tour-carousel").owlCarousel({
+      items: 3,
+      margin: 10,
+      loop: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      responsive: {
+        0: { items: 1 },
+        768: { items: 2 },
+        1440: { items: 3 }
+      }
+    });
+  });
+</script>
+<script>
+  // Wait for the DOM to load
+  document.addEventListener("DOMContentLoaded", () => {
+    // Select hamburger and mobile menu
+    const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    // Add click event to toggle menu visibility
+    hamburger.addEventListener("click", () => {
+      // Toggle the 'show' class on the mobile menu
+      mobileMenu.classList.toggle("show");
+
+      // Optionally toggle 'active' class for hamburger animation
+      hamburger.classList.toggle("active");
+    });
+
+    // Optional: Close menu when clicking outside
+    document.addEventListener("click", (event) => {
+      if (!hamburger.contains(event.target) && !mobileMenu.contains(event.target)) {
+        mobileMenu.classList.remove("show");
+        hamburger.classList.remove("active");
+      }
+    });
+  });
+
+</script>
+
+</html>
