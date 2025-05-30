@@ -1033,9 +1033,10 @@ body {
     flex-wrap: nowrap !important;
   }
 }
-@media (max-width: 1024px) {
+
+@media (max-width: 1024px) and (min-width: 768px) {
   .slider-image {
-    width: 32%;
+    width: 100% !important;
     height: 250px;
   }
   .carousel-item .row {
@@ -1050,11 +1051,11 @@ body {
 }
 @media (min-width: 1024px) {
   .slider-image {
-    width: 33%;
+    width: 100% !important;
     height: 250px;
   }
    .carousel-item .row .col-md-4 {
-    width: 33%;
+    width: 33% !important;
   }
   .carousel-item .row {
     flex-wrap: nowrap !important;
