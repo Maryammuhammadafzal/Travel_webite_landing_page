@@ -400,8 +400,6 @@ body {
 
 /* Media Query for Mobile Phones */
 @media (max-width: 768px) {
-
-
   .investment-image {
     margin-bottom: 1.5rem;
   }
@@ -853,8 +851,6 @@ body {
   height: 600px;
 }
 
-
-
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -883,7 +879,7 @@ body {
   border: 1px solid #cdd63b;
   z-index: 100;
 }
-@media (max-width : 768px ) {
+@media (max-width: 768px) {
   .testimonial-slider {
     max-width: 98%;
   }
@@ -891,9 +887,9 @@ body {
     width: 95%;
   }
 }
-@media (max-width : 500px ) {
+@media (max-width: 500px) {
   .testimonial-text {
-   left: 50%;
+    left: 50%;
   }
 }
 
@@ -985,9 +981,9 @@ body {
   max-width: 1600px;
   margin: auto;
 }
-.carousel-slide {
+/* .carousel-slide {
   width: 60%;
-}
+} */
 
 .destination-slider h2 {
   font-size: 48px;
@@ -1003,14 +999,66 @@ body {
   padding-right: 50px;
   text-align: left !important;
 }
-.slider-image {
-  height: 800px;
-}
 
 .carousel-item img {
   border-radius: 15px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 60.5s ease-in-out;
+}
+.slider-image {
+  width: 290px;
+  height: 400px;
+}
+
+@media (max-width: 600px) {
+  .slider-image {
+    width: 90% !important;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .carousel-item .row {
+    flex-wrap: nowrap !important;
+  }
+}
+@media (max-width: 768px) {
+  .slider-image {
+    width: 90% !important;
+    height: 240px;
+    margin: 0 auto;
+  }
+  .carousel-item .row .col-md-4 {
+    width: 100%;
+  }
+  .carousel-item .row {
+    flex-wrap: nowrap !important;
+  }
+}
+@media (max-width: 1024px) {
+  .slider-image {
+    width: 32%;
+    height: 250px;
+  }
+  .carousel-item .row {
+    flex-wrap: nowrap !important;
+  }
+  #destinationCarousel {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .slider-image {
+    width: 33%;
+    height: 250px;
+  }
+   .carousel-item .row .col-md-4 {
+    width: 33%;
+  }
+  .carousel-item .row {
+    flex-wrap: nowrap !important;
+  }
 }
 
 .carousel-item img:hover {
@@ -1041,8 +1089,8 @@ body {
     padding-right: 0px;
   }
   .slider-image {
-  height: 500px;
-}
+    height: 500px;
+  }
 }
 
 /* .row {
